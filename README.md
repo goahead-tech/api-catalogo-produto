@@ -24,7 +24,7 @@ java -jar catalogo-produto
 
 Após a aplicação subir acesse: http://localhost:8089/swagger-ui.html para acessar o Swagger
 
-Lembrando que o DB está configurado com H2 por esse motivo acessar o método POST para incluir alguns registro e assim utilizar os outros métodos.
+Lembrando que o DB está configurado com H2 com alguns dados criados no starter do projeto, sendo assim já poderá fazer consultas nos métodos disponíveis.
 
 Qualquer dúvida entre em contato pelo gitHub ou pelo https://www.linkedin.com/in/rodrigo-nunes-galvan-6852051a5/
 
