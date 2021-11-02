@@ -1,23 +1,24 @@
 # api-catalogo-produto
 
-API para Cadastro de Produtos, Esse projeto tem um servidor de aplicações desenvolvido em Java + Spring Boot que será rodado localmente para
+API para Cadastro de Produtos, esse projeto tem um servidor de aplicações desenvolvido em Java + Spring Boot que será rodado localmente para
 facilitar a consumo de uma API.
 
 Para visualizar a aplicação funcionando deverá:
 
 Fazer um fork desse projeto, criando um repositório na sua própria conta.
+
 Instalar o Java 1.8 na sua máquina caso não esteja instalado;
 
 Abra o terminal e rode os seguintes comandos:
 
-Vá até na Pasta aonde o projeto foi baixado e a seguir de o Comando: 
+Vá até na Pasta onde o projeto foi baixado e a seguir dê o Comando: 
 
 mvn clean install -DskipTests
 
-Logo em seguida de um comando "ls" e vá até o diretório /target após esse comando de outra vez o comando "ls", 
+Logo em seguida de um comando "ls" e vá até o diretório /target, após dê outra vez o comando "ls", 
 logo em seguida certifique se o arquivo catalogo-produto.jar está dentro do diretório.
 
-Após certificar de o comando:
+Após certificar dê o comando:
 
 java -jar catalogo-produto
 
