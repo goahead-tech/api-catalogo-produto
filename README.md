@@ -9,7 +9,8 @@ Fazer um fork desse projeto, criando um repositório na sua própria conta.
 Instalar o Java 1.8 na sua máquina caso não esteja instalado;
 
 Abra o terminal e rode os seguintes comandos:
-Vá até na Pasta aonde o projeto foi baixado e a seguir de o Comando 
+
+Vá até na Pasta aonde o projeto foi baixado e a seguir de o Comando: 
 
 mvn clean install -DskipTests
 
