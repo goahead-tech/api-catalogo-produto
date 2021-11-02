@@ -1,0 +1,9 @@
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
+INSERT INTO PRODUCT(name, description, price) VALUES('Celular Sansung S20', 'Celular de última geração com 2 anos de garantia', 3999.00);
