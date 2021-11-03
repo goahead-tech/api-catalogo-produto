@@ -17,16 +17,16 @@ import java.math.BigDecimal;
 @ApiModel(value = "ProdutoFilter")
 public class ProdutoFilter {
 
-    @ApiModelProperty(value = "ID do produto", dataType = "Long", example = "1")
+    @ApiModelProperty(value = "ID do produto", dataType = "Long", example = "")
     private Long id;
 
-    @ApiModelProperty(value = "Name do produto", dataType = "String", example = "Notebook Dell")
+    @ApiModelProperty(value = "Name do produto", dataType = "String", example = "")
     private String name;
 
-    @ApiModelProperty(value = "Descrição do produto", dataType = "String", example = "Notebook Dell ultra fino")
+    @ApiModelProperty(value = "Descrição do produto", dataType = "String", example = "")
     private String description;
 
-    @ApiModelProperty(value = "Preço do produto", dataType = "BigDecimal", example = "6999.00")
+    @ApiModelProperty(value = "Preço do produto", dataType = "BigDecimal", example = "")
     private BigDecimal price;
 
     @ApiModelProperty(value = "Preço Mínimo", dataType = "BigDecimal", example = "")
