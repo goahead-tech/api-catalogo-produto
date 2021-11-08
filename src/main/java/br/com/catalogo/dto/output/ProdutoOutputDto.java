@@ -6,6 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import br.com.catalogo.enums.ProductCategory;
 
 @Data
 @Builder
@@ -17,5 +21,7 @@ public class ProdutoOutputDto {
     private String name;
     private String description;
     private BigDecimal price;
+    private LocalDateTime creationDate;
+    private ProductCategory productCategory;
 }
 

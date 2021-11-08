@@ -36,5 +36,11 @@ public class ProdutoFilter {
     @ApiModelProperty(value = "Preço Mínimo", dataType = "BigDecimal", example = "")
     @DecimalMin(value = "10000000", inclusive = false)
     private BigDecimal max_price;
+    
+    @ApiModelProperty(value = "Categoria do Produto", dataType = "Enum", example = "")
+    private String productCategory;
+
+    @ApiModelProperty(value = "Data criação do Produto", dataType = "LocalDateTime", example = "")
+    private BigDecimal creationDate;
 
 }

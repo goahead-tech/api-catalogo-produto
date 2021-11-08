@@ -1,10 +1,13 @@
 package br.com.catalogo.model;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 import lombok.*;
 
 import javax.persistence.*;
+
+import br.com.catalogo.enums.ProductCategory;
 
 
 @Data
@@ -16,7 +19,7 @@ import javax.persistence.*;
 public class Produto {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Long id;
 
@@ -28,5 +31,15 @@ public class Produto {
 
     @Column(name = "price")
     private BigDecimal price;
+    
+    @Column(name = "creation_date")
+    private LocalDateTime creationDate;
+    
+    @Column(name="product_category")
+    @Enumerated(EnumType.STRING)
+    private ProductCategory productCategory;
+    
+    
+    
 }
 
